@@ -1,2 +1,67 @@
 /* styles.css */
+:root {
+    --dark-blue-text: #73808D;
+    --dark-blue-box: #47527B;
+    --font-family: 'Roboto', 'Quicksand', sans-serif;
+}
 
+body {
+	font-family: "Quicksand", sans-serif;
+	background-color: white;
+	font-weight: 100;
+	font-size: 1em;
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+	font-family: "Roboto", sans-serif;
+	color: black;
+	font-size: 2.5em;
+	border-bottom: 2px solid var(--deep-mocha);
+}
+
+.information {
+    color: var(--dark-blue-text);
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.summary {
+    font-weight: 300;
+}
+
+h2 {
+	font-family: "Roboto", sans-serif;
+	color: black;
+	font-size: 2em;
+	border-bottom: 3px solid black;
+}
+
+.location {
+    color: var(--dark-blue-text);
+    font-size: .8em;
+    font-style: italic;
+}
+
+.col-4 {
+    background-color: var(--dark-blue-box);
+    color: white;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.img-fluid {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    font-weight: bold;
+}
